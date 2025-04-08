@@ -167,7 +167,3 @@ The system generates detailed outputs for each scenario:
 
 - **Visualization issues**: If 3D visualization has problems, try using 2D mode by setting `is_3d=False`
 - **Performance issues**: For scenarios with many conflicts, modify the time step in `DeconflictionService` to improve performance
-
-## License
-
-[MIT License](LICENSE)
