@@ -21,7 +21,7 @@ This project implements a strategic deconfliction system that:
 
 1. Clone the repository or download the files:
 ```bash
-git clone https://github.com/yourusername/uav-deconfliction.git
+git clone https://github.com/sudhanshur555/flight_collision_detection.git
 cd uav-deconfliction
 ```
 
