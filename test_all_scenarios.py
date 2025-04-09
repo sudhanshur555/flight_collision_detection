@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import numpy as np
-from deconfliction import Waypoint, DroneTrajectory, DeconflictionService
+from conflict_visualization import Waypoint, DroneTrajectory, DeconflictionService
 
 def create_visualization(scenario_name, primary_trajectory, other_trajectories, conflicts, safety_buffer):
     """Create and save a visualization for a specific scenario"""
