@@ -34,7 +34,7 @@ pip install numpy matplotlib
 
 The project consists of the following key files:
 
-- `deconfliction.py` - Core implementation with all classes and algorithms
+- `conflict_visualization.py` - Core implementation with all classes and algorithms
 - `test_all_scenarios.py` - Comprehensive test suite with visualizations
 
 ## Usage
