@@ -12,7 +12,7 @@ This project implements a strategic deconfliction system that:
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.12.3
 - Dependencies:
   - numpy
   - matplotlib
@@ -21,13 +21,18 @@ This project implements a strategic deconfliction system that:
 
 1. Clone the repository or download the files:
 ```bash
+mkdir test_env
+cd test_env
+python -m venv test_enviroment
+source test_enviroment/bin/activate
 git clone https://github.com/sudhanshur555/flight_collision_detection.git
 cd flight_collision_detection
+
 ```
 
 2. Install dependencies:
 ```bash
-pip install numpy matplotlib
+pip install "numpy<2.0.0" matplotlib==3.8.2
 ```
 
 ## File Structure
